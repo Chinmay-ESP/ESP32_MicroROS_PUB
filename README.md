@@ -18,8 +18,8 @@ This repository demonstrates the implementation of Micro-ROS on an ESP32 develop
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/your_username/your_repository.git
-   cd your_repository
+   git clone https://github.com/Chinmay-ESP/ESP32_MicroROS_PUB.git
+   cd ESP32_MicroROS_PUB
    ```
 
 2. **Install Dependencies**

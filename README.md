@@ -60,7 +60,7 @@ ros2 topic echo /micro_ros_platformio_node_publisher
 
 - If the Micro-ROS agent is not running, start it using:
   ```sh
-  ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB0 -b 115200
+  docker run -it --rm --ipc host --network host --privileged microros/micro-ros-agent:humble serial -b 115200 --dev /dev/ttyUSB0
   ```
 - Ensure the correct USB port is configured in `platformio.ini`.
 - Verify ROS2 and Micro-ROS installations are correctly configured.

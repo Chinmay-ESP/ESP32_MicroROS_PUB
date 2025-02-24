@@ -1,4 +1,4 @@
-# Micro-ROS with ESP32 using PlatformIO
+# Micro-ROS with ESP32 using Platform-IO
 
 This repository demonstrates the implementation of Micro-ROS on an ESP32 development board using the PlatformIO environment. The project features a ROS2 publisher that transmits integer messages (`std_msgs/msg/Int32`) to a specified ROS2 topic.
 
